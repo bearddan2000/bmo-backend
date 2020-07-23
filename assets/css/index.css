@@ -1,0 +1,122 @@
+.header {
+  margin-bottom: 1.5rem;
+}
+.header a {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 0;
+  font-weight: 700;
+}
+.logo {width:150px; height:100px; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  padding: 1.5rem 5vw 10vh;
+  text-align: center;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+.footer a {
+  display: inline-block;
+  font-size: 0.875rem;
+}
+.text {
+ letter-spacing: 0.05em;
+ line-height: 1.5em;
+}
+
+.page {
+  padding: 5vh 5vw 10vh;
+}
+
+.menu a {
+  margin: 0 0.75rem;
+}
+.menu a[aria-current] {
+  border-bottom: 2px solid #000;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 300px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-container > div {
+  padding: 20px 0;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+@media screen and (min-width: 40rem) {
+  .header .logo {
+    margin-bottom: 0;
+  }
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu {
+    margin-right: -0.75rem;
+  }
+  .grid-container {
+    grid-template-columns: repeay(2, 1fr);
+  }
+}
+:root {
+  --content-width: 65rem;
+}
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+a {
+  color: currentColor;
+}
+
+// facebook ad
+.banner {
+ width: 80%;
+ height: 75%;
+}
+main {
+  min-height: calc(100vh - 10rem);
+}
+
+main p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  text-indent: 10%;
+}
+main p ol {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div.text ul {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  line-style-type: none;
+}

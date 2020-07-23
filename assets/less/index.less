@@ -1,0 +1,42 @@
+@import 'header.less';
+@import 'footer.less';
+@import 'page.less';
+@import 'menu.less';
+@import 'grid-container.less';
+@import 'media.less';
+
+:root {
+  --content-width: 65rem;
+}
+
+*,
+*:after,
+*:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+strong, b {
+  font-weight: 500;
+}
+
+img {
+  //width: 100%;
+  width: 50%;
+  height: 50%;
+}
+
+main {
+  min-height: calc(100vh - 10rem);
+}
+
