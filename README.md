@@ -1,7 +1,13 @@
 # Kirby Starterkit
 
 Kirby is a file-based CMS.
-Easy to setup. Easy to use. Flexible as hell.
+Easy to setup. Easy to use.
+
+## To login to the cms
+
+Go to <http://localhost/panel>
+Username: ted
+Password: tedtedted
 
 ## Trial
 
