@@ -1,13 +1,23 @@
-# Kirby Starterkit
+# bmo-backend
+
+## Description
+
+Exercise in using a head-less CMS.
+
+## Technologies used
+- PHP 7.3
+- less
+- composer
+- Kirby CMS
+- Social Media
+  - Twitter
+  - Google Analytics
+  - Facebook ad
+
+## Kirby
 
 Kirby is a file-based CMS.
 Easy to setup. Easy to use.
-
-## To login to the cms
-
-Go to <http://localhost/panel>
-Username: ted
-Password: tedtedted
 
 ## Trial
 
