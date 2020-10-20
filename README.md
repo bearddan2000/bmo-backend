@@ -1,10 +1,10 @@
-# bmo-backend
+# php-web-bmo-backend
 
 ## Description
-
 Exercise in using a head-less CMS.
 
-## Technologies used
+## Tech stack
+- docker-compose
 - PHP 7.3
 - less
 - composer
